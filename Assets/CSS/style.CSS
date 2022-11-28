@@ -1,0 +1,17 @@
+body {
+    background-color: lightblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+flex-wrap: wrap;
+}
+
+.avatar {
+    height: 100px;
+}
+
+footer {
+position: relative;
+text-align: center;
+}
