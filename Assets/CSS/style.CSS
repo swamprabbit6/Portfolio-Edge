@@ -1,52 +1,75 @@
 body {
-    background-color: lightblue;
+    background-color: antiquewhite;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+ul {
+    list-style-type: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+li {
+    padding: 10px;
+}
+
 .container-1 {
-padding: 10px;
+padding: 30px;
 display: flex;
-flex: auto;
 }
 
 .child-1 {
-flex: 1;
 padding: 20px;
+flex-grow: 1;
 }
 
 .child-2 {
-flex: 1;
 padding: 20px;
+flex-grow: 1;
 }
 
 .child-3 {
-flex: 1x;
-padding: 20px;
-font-size: 40px;
+padding: 10px;
+flex-grow: 1;
+}
+
+.button:hover {
+    background-color: yellow;
+}
+
+button {
+    flex: auto;
+    font-size: auto;
 }
 
 .avatar {
     height: 200px;
 }
 
-.Timing, .Building, .Highlights {
-    display: flex;
-    flex: auto;
-    margin-bottom: 20px;
-    padding: 50px;
+.About {
+    display: inline-block;
+    padding: 20px;
+    margin: 50px;
+    height: 300px;
+    background-color: white;
+    text-align: left;
+}
+
+section h2 {
+    text-align: center;
+}
+
+.Building, .Highlights, .Timing, .app {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    margin: 50px;
     height: 100px;
-    background-color: darkblue;
-}
-
-.Timing {
-    margin-left: 75%;
-}
-
-.Building {
-    margin-right: 75%;
+    width: 40%;
+    padding: 10px;
+    background-color: white;
 }
 
 .footer {
-position: absolute;
-text-align: center;
+align-self: center;
 }
