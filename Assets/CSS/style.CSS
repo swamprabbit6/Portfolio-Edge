@@ -45,7 +45,28 @@ button {
     height: 200px;
 }
 
-.About {
+.Building img, .Timing img, .Highlights img, .app img {
+    width: 100%;
+    height: 100%;
+}
+
+.carry, .carry0, .carry2, .carry3 {
+    object-fit: cover;
+}
+
+.Building, .Timing, .Highlights, .app {
+    position: relative;
+  }
+  
+.textblock2, .textblock1, .textblock3, .textblock4 {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.About, .radical {
     display: inline-block;
     padding: 20px;
     margin: 50px;
@@ -54,7 +75,7 @@ button {
     text-align: left;
 }
 
-section h2 {
+section h3 {
     text-align: center;
 }
 
@@ -66,10 +87,13 @@ section h2 {
     margin: 50px;
     height: 100px;
     width: 40%;
-    padding: 10px;
-    background-color: white;
+}
+
+.Building:hover, .Highlights:hover, .Timing:hover, .app:hover {
+    opacity: .5;
 }
 
 .footer {
-align-self: center;
+justify-content:center;
+align-items: center;
 }
