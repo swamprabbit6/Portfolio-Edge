@@ -45,32 +45,34 @@ button {
     height: 200px;
 }
 
-.Building img, .Timing img, .Highlights img, .app img {
+.Building img, .Timing img, .Highlights img, .app img, .radical img {
     width: 100%;
     height: 100%;
 }
 
-.carry, .carry0, .carry2, .carry3 {
+.carry, .carry0, .carry2, .carry3, .carry5 {
     object-fit: cover;
 }
 
-.Building, .Timing, .Highlights, .app {
+.Building, .Timing, .Highlights, .app, .radical {
     position: relative;
   }
   
-.textblock2, .textblock1, .textblock3, .textblock4 {
+.textblock2, .textblock1, .textblock3, .textblock4, .textblock5 {
     position: absolute;
     background-color: black;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
+    text-align: center;
   }
 
-.About, .radical {
+.About {
     display: inline-block;
     padding: 20px;
     margin: 50px;
     height: 300px;
+    width: 90%;
     background-color: white;
     text-align: left;
 }
@@ -87,10 +89,30 @@ section h3 {
     margin: 50px;
     height: 100px;
     width: 40%;
+    cursor: pointer;
 }
 
-.Building:hover, .Highlights:hover, .Timing:hover, .app:hover {
+.radical {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    margin: 50px;
+    height: 200px;
+    width: 90%;
+    cursor: pointer;  
+}
+
+.Building:hover, .Highlights:hover, .Timing:hover, .app:hover, .radical:hover {
     opacity: .5;
+}
+
+.contact {
+   padding: 20px;
+   margin: 20px;
+   background-color: white;
+   width: 50%;
+   justify-content: space-evenly;
 }
 
 .footer {
